@@ -6,7 +6,6 @@ function App() {
   const [players, setPlayers] = useState([]);
 
   useEffect(() => {
-    // Fetch the players data from the public folder
     fetch('/players.json')
       .then((response) => response.json())
       .then((data) => {
@@ -19,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Soccer Management App</h1>
+      <h1 className="title">Soccer Management App</h1>
       <MatchDaySelection players={players} />
     </div>
   );

@@ -7,7 +7,6 @@ const MatchDaySelection = ({ players }) => {
   const [teams, setTeams] = useState([]);
   const [numTeams, setNumTeams] = useState(2); // Default to 2 teams
 
-  // Handle player selection and deselection
   const handlePlayerClick = (player) => {
     const scrollPos = window.scrollY;
 
@@ -20,7 +19,6 @@ const MatchDaySelection = ({ players }) => {
     window.scrollTo(0, scrollPos);
   };
 
-  // Divide players into the selected number of teams
   const createTeams = () => {
     if (selectedPlayers.length === 0) return;
 
@@ -38,15 +36,14 @@ const MatchDaySelection = ({ players }) => {
 
   return (
     <div className="matchday-container">
-      <h3>Select Players for Match Day</h3>
+      <h3 className="section-heading">Select Players for Match Day</h3>
 
-      {/* Responsive Table Wrapper */}
       <div className="table-wrapper">
         <PlayerTable players={players} selectedPlayers={selectedPlayers} handlePlayerClick={handlePlayerClick} />
       </div>
 
-      <h3>Selected Players ({selectedPlayers.length})</h3>
-      <ul>
+      <h3 className="section-heading">Selected Players ({selectedPlayers.length})</h3>
+      <ul className="space-grotesk">
         {selectedPlayers.map((player) => (
           <li key={player.name}>{player.name}</li>
         ))}
@@ -54,8 +51,8 @@ const MatchDaySelection = ({ players }) => {
 
       {selectedPlayers.length > 0 && (
         <>
-          <div>
-            <label>Number of Teams: </label>
+          <div className="py-4">
+            <label className="paragraph-heading space-grotesk">Number of Teams: </label>
             <select value={numTeams} onChange={(e) => setNumTeams(parseInt(e.target.value))}>
               <option value={1}>1 Team</option>
               <option value={2}>2 Teams</option>
@@ -63,7 +60,7 @@ const MatchDaySelection = ({ players }) => {
             </select>
           </div>
 
-          <button onClick={createTeams}>Create Teams</button>
+          <button className="py-2 mt-2 mb-4 rounded text-black" onClick={createTeams}>Create Teams</button>
         </>
       )}
 

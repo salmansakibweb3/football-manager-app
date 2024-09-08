@@ -31,18 +31,14 @@ table {
 }
 
 th, td {
-  border: 1px solid #d58c50;
+  border: 1px solid #072204;
   padding: 8px;
   text-align: left;
 }
 
-th {
-  background-color: #533e7d;
-}
-
 button {
   background-color: #007bff;
-  color: rgba(94, 71, 78, 0.792);
+  color: rgba(255, 0, 0, 0.792);
   padding: 5px 10px;
   border: none;
   cursor: pointer;
@@ -86,7 +82,7 @@ button:hover {
 
 .team-card h4 {
   margin-top: 0;
-  color: #007bff;
+  color: #000000;
 }
 
 .team-card ul {
@@ -133,4 +129,68 @@ table {
   th, td {
     white-space: nowrap;  /* Prevent table content from wrapping */
   }
+}
+
+
+/* Font styles */
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Title and Section Heading styling */
+.title {
+  font-family: "Bungee", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-family: "Bungee", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.paragraph-heading {
+  font-family: "Bungee", sans-serif;
+  font-size: 1.0 rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.minor-heading {
+  font-family: "Bungee", sans-serif;
+  font-size: 0.75 rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+/* Table Headers - Centered */
+th {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  background-color: #000000;
+  color: white;
+  text-align: center; /* Center the text */
+}
+
+/* Table Data Cells - Centered */
+td {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  text-align: center; /* Center the text */
+  padding: 10px; /* Add padding for better readability */
+}
+
+button {
+  font-family: "Space Grotesk", sans-serif;
 }
