@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import PlayerList from './components/PlayerList';
 import MatchDaySelection from './components/MatchDaySelection';
 
 function App() {

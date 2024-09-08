@@ -1,44 +1,22 @@
-.App {
-  text-align: center;
+/* Import the Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #1f60c1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.matchday-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* Add this to App.css */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -61,8 +39,77 @@ button {
   padding: 5px 10px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #0056b3;
 }
+
+button.selected {
+  background-color: #28a745;
+}
+
+button.selected:hover {
+  background-color: #218838;
+}
+
+
+.info-button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.info-button:hover {
+  color: #30649b;
+}
+
+/* Team cards styling */
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-card {
+  background-color: #4e9164;
+  border: 1px solid #0c0202;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px);
+  min-width: 250px;
+}
+
+.team-card h4 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.team-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-card ul li {
+  margin-bottom: 5px;
+}
+
+.team-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .team-card {
+    width: 100%;
+  }
+}
+

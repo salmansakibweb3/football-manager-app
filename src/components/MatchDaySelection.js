@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
+import PlayerTable from './PlayerTable';
+import TeamsDisplay from './TeamsDisplay';
 
 const MatchDaySelection = ({ players }) => {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const [teams, setTeams] = useState([]);
-  const [numTeams, setNumTeams] = useState(3); // Default to 3 teams
+  const [numTeams, setNumTeams] = useState(2); // Default to 2 teams
 
-  // Handle player selection for matchday
-  const handleSelection = (player) => {
-    if (!selectedPlayers.includes(player)) {
+  // Handle player selection and deselection
+  const handlePlayerClick = (player) => {
+    if (selectedPlayers.includes(player)) {
+      // Deselect player if already selected
+      setSelectedPlayers(selectedPlayers.filter(p => p !== player));
+    } else {
+      // Select player
       setSelectedPlayers([...selectedPlayers, player]);
     }
   };
@@ -32,34 +38,11 @@ const MatchDaySelection = ({ players }) => {
   };
 
   return (
-    <div>
+    <div className="matchday-container">
       <h3>Select Players for Match Day</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Main Pos</th>
-            <th>Alt Pos 1</th>
-            <th>Alt Pos 2</th>
-            <th>Alt Pos 3</th>
-          </tr>
-        </thead>
-        <tbody>
-          {players.map((player) => (
-            <tr key={player.name}>
-              <td>
-                <button onClick={() => handleSelection(player)}>
-                  {player.name} ({player.nickname})
-                </button>
-              </td>
-              <td>{player.positions[0] || 'N/A'}</td>
-              <td>{player.positions[1] || 'N/A'}</td>
-              <td>{player.positions[2] || 'N/A'}</td>
-              <td>{player.positions[3] || 'N/A'}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+
+      {/* Player Table */}
+      <PlayerTable players={players} selectedPlayers={selectedPlayers} handlePlayerClick={handlePlayerClick} />
 
       <h3>Selected Players ({selectedPlayers.length})</h3>
       <ul>
@@ -75,7 +58,7 @@ const MatchDaySelection = ({ players }) => {
             <select value={numTeams} onChange={(e) => setNumTeams(parseInt(e.target.value))}>
               <option value={1}>1 Team</option>
               <option value={2}>2 Teams</option>
-              <option value={3}>3 Teams</option>
+              {selectedPlayers.length >= 19 && <option value={3}>3 Teams</option>}
             </select>
           </div>
 
@@ -83,21 +66,7 @@ const MatchDaySelection = ({ players }) => {
         </>
       )}
 
-      {teams.length > 0 && (
-        <div>
-          <h3>Teams</h3>
-          {teams.map((team, index) => (
-            <div key={index}>
-              <h4>Team {index + 1}</h4>
-              <ul>
-                {team.map((player) => (
-                  <li key={player.name}>{player.name}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      )}
+      {teams.length > 0 && <TeamsDisplay teams={teams} numTeams={numTeams} />}
     </div>
   );
 };
