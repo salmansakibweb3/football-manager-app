@@ -110,3 +110,27 @@ button:hover {
     width: 100%;
   }
 }
+
+/* Table wrapper for responsive scrolling */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;  /* Enables horizontal scrolling if needed */
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Ensure the table stays within the screen width */
+@media (max-width: 768px) {
+  table {
+    min-width: 600px; /* Minimum width for the table to prevent overflowing */
+  }
+
+  th, td {
+    white-space: nowrap;  /* Prevent table content from wrapping */
+  }
+}

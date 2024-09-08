@@ -9,18 +9,14 @@ const MatchDaySelection = ({ players }) => {
 
   // Handle player selection and deselection
   const handlePlayerClick = (player) => {
-    // Prevent scroll jump by keeping the scroll position fixed
     const scrollPos = window.scrollY;
 
     if (selectedPlayers.includes(player)) {
-      // Deselect player if already selected
       setSelectedPlayers(selectedPlayers.filter(p => p !== player));
     } else {
-      // Select player
       setSelectedPlayers([...selectedPlayers, player]);
     }
 
-    // Restore the scroll position
     window.scrollTo(0, scrollPos);
   };
 
@@ -28,13 +24,10 @@ const MatchDaySelection = ({ players }) => {
   const createTeams = () => {
     if (selectedPlayers.length === 0) return;
 
-    // Shuffle the selected players randomly
     const shuffledPlayers = [...selectedPlayers].sort(() => 0.5 - Math.random());
 
-    // Create an empty array for the teams
     const tempTeams = Array.from({ length: numTeams }, () => []);
 
-    // Distribute players across the teams evenly
     shuffledPlayers.forEach((player, index) => {
       const teamIndex = index % numTeams;
       tempTeams[teamIndex].push(player);
@@ -47,8 +40,10 @@ const MatchDaySelection = ({ players }) => {
     <div className="matchday-container">
       <h3>Select Players for Match Day</h3>
 
-      {/* Player Table */}
-      <PlayerTable players={players} selectedPlayers={selectedPlayers} handlePlayerClick={handlePlayerClick} />
+      {/* Responsive Table Wrapper */}
+      <div className="table-wrapper">
+        <PlayerTable players={players} selectedPlayers={selectedPlayers} handlePlayerClick={handlePlayerClick} />
+      </div>
 
       <h3>Selected Players ({selectedPlayers.length})</h3>
       <ul>
