@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MatchDaySelection from './components/MatchDaySelection';
+import './App.css';  // Make sure you're importing the CSS
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -19,9 +20,6 @@ function App() {
   return (
     <div className="App">
       <h1>Soccer Management App</h1>
-      {/* Render components for PlayerList and MatchDaySelection */}
-      {/* Passing the players data as props */}
-      {/* <PlayerList players={players} /> */}
       <MatchDaySelection players={players} />
     </div>
   );

@@ -1,22 +1,29 @@
-/* Import the Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* Add this to App.css */
 
-body {
-  font-family: 'Space Grotesk', sans-serif;
-  background-color: #1f60c1;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Make sure the app container takes up the full height */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Ensure the app content spans the full width */
+  text-align: center;
+  background-color: #f5f7fa;
 }
 
+/* Matchday container adjustments */
 .matchday-container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: rgb(216, 234, 225);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Card-like appearance */
 }
 
+/* Table styling */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -24,18 +31,18 @@ table {
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #d58c50;
   padding: 8px;
   text-align: left;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #533e7d;
 }
 
 button {
   background-color: #007bff;
-  color: white;
+  color: rgba(94, 71, 78, 0.792);
   padding: 5px 10px;
   border: none;
   cursor: pointer;
@@ -43,29 +50,20 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #bcc6d1;
 }
-
-button.selected {
-  background-color: #28a745;
-}
-
-button.selected:hover {
-  background-color: #218838;
-}
-
 
 .info-button {
   background-color: transparent;
   border: none;
-  color: #007bff;
+  color: #0011ff;
   cursor: pointer;
   font-size: 16px;
   margin-left: 5px;
 }
 
 .info-button:hover {
-  color: #30649b;
+  color: #00a7b3;
 }
 
 /* Team cards styling */
@@ -77,8 +75,8 @@ button.selected:hover {
 }
 
 .team-card {
-  background-color: #4e9164;
-  border: 1px solid #0c0202;
+  background-color: #4fb1cb;
+  border: 1px solid #78dd45;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -112,4 +110,3 @@ button.selected:hover {
     width: 100%;
   }
 }
-

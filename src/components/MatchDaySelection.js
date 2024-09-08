@@ -9,6 +9,9 @@ const MatchDaySelection = ({ players }) => {
 
   // Handle player selection and deselection
   const handlePlayerClick = (player) => {
+    // Prevent scroll jump by keeping the scroll position fixed
+    const scrollPos = window.scrollY;
+
     if (selectedPlayers.includes(player)) {
       // Deselect player if already selected
       setSelectedPlayers(selectedPlayers.filter(p => p !== player));
@@ -16,6 +19,9 @@ const MatchDaySelection = ({ players }) => {
       // Select player
       setSelectedPlayers([...selectedPlayers, player]);
     }
+
+    // Restore the scroll position
+    window.scrollTo(0, scrollPos);
   };
 
   // Divide players into the selected number of teams

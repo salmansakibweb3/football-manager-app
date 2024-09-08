@@ -18,10 +18,7 @@ const PlayerTable = ({ players, selectedPlayers, handlePlayerClick }) => {
             <td>
               <button
                 onClick={() => handlePlayerClick(player)}
-                style={{
-                  backgroundColor: selectedPlayers.includes(player) ? '#28a745' : '#007bff',
-                  color: 'white',
-                }}
+                className={`px-4 py-2 font-bold text-white rounded ${selectedPlayers.includes(player) ? 'bg-green-500' : 'bg-blue-500'} hover:bg-blue-700`}
               >
                 {player.nickname}
               </button>
