@@ -1,0 +1,842 @@
+[
+    {
+        "name": "Sohel Rana",
+        "nickname": "Sohel",
+        "positions": [
+            "CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Syed Hossain",
+        "nickname": "Syed",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Mazhar Islam",
+        "nickname": "Mazhar ",
+        "positions": [
+            "CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Anupam Barua",
+        "nickname": "Anupam",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Alex Zhu",
+        "nickname": "Alex",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Md Sani khan",
+        "nickname": "Sani",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Raihan Tarafdar",
+        "nickname": "Raihan",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Md Al Jakaria ",
+        "nickname": "Jakaria",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Md Opu",
+        "nickname": "Opu",
+        "positions": [
+            "CAM/CM",
+            " ST/CF"
+        ]
+    },
+    {
+        "name": "Zashim Uddin ",
+        "nickname": "Zashim ",
+        "positions": [
+            "CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Asif Haque",
+        "nickname": "Asif",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Nafees Ahmed",
+        "nickname": "Kuntal",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Irshad Yasin",
+        "nickname": "Irshad",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mohammad Nurul Huda",
+        "nickname": "Huda",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Kiran Yalasangi ",
+        "nickname": "Kiran",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "MD AZMIR BHUIYAN",
+        "nickname": "AZMIR",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Jani khan",
+        "nickname": "Jani",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Arman Elahi",
+        "nickname": "Arman",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Tesfaldet Yemaneab ",
+        "nickname": "Tesfaldet ",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Sumedh Guha",
+        "nickname": "Sumedh",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Rizwan Arif",
+        "nickname": "Rizwan/rossi",
+        "positions": [
+            "CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Mohammad Moshiur Rahman",
+        "nickname": "Moshiur",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Rifat Sheikh",
+        "nickname": "Rifat",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mir Sayed Ali",
+        "nickname": "Sayed",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Ali Khwaja",
+        "nickname": "Ali",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Subir Sarker",
+        "nickname": "Mithu",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Rumi Karim",
+        "nickname": "Rumi",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Tamim Addari",
+        "nickname": "Tamim",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Iftekhar Naim",
+        "nickname": "Iftekhar ",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Shaikh Nazrul Islam",
+        "nickname": "Nazrul ",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "S M Faisal ",
+        "nickname": "Faisal",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Shahadat Hossain",
+        "nickname": "Shahadat",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Syed Monowar Hossain",
+        "nickname": "Monowar",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Shariful Islam bhuiyan ",
+        "nickname": "Sharif",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Sabbir Yousuf",
+        "nickname": "Sabbir",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Abu Shama Miraz",
+        "nickname": "Miraz",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Rafi Hassan",
+        "nickname": "Shuvro",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Syed Sabbir Ahmed ",
+        "nickname": "Sabbir ",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Abdullah Al Mamun",
+        "nickname": "Mamun",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Syed Quadri",
+        "nickname": "Syed",
+        "positions": [
+            "CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mohammad Shahbaz",
+        "nickname": "Shahbaz",
+        "positions": [
+            "CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Ahsan Arefin",
+        "nickname": "Sunny",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Tanjeem Ahsan",
+        "nickname": "Tanjeem",
+        "positions": [
+            "CDM/CM"
+        ]
+    },
+    {
+        "name": "Mohammad Naziur Rahman ",
+        "nickname": "Naziur",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Fawad Sarwar",
+        "nickname": "Fawad",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Ahmed Rahid",
+        "nickname": "Amit",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Qamrul Hasan",
+        "nickname": "T2",
+        "positions": [
+            "CDM/CM"
+        ]
+    },
+    {
+        "name": "Rifat Ferdous",
+        "nickname": "Ron",
+        "positions": [
+            "CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Md Fahim Faysal Khan",
+        "nickname": "Faysal",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Ahmed Shah Arman",
+        "nickname": "Arman",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Arka Biswas",
+        "nickname": "Arka",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Sayedul Aman",
+        "nickname": "Sayed",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Kawser Jamal",
+        "nickname": "Kawser ",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Mejbah Alam ",
+        "nickname": "Mejbah ",
+        "positions": [
+            "CDM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Md Maruf Abir Bappy",
+        "nickname": "Bappy",
+        "positions": [
+            "GK",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Khan Mohammed Shams",
+        "nickname": "Shams",
+        "positions": [
+            "GK"
+        ]
+    },
+    {
+        "name": "Atiq Islam",
+        "nickname": "Atiq",
+        "positions": [
+            "GK",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Shafique",
+        "nickname": "Shafique",
+        "positions": [
+            "GK",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Ehsan Hoque",
+        "nickname": "Ehsan",
+        "positions": [
+            "GK",
+            " CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Nayeer Ullah",
+        "nickname": "Roshogollah",
+        "positions": [
+            "GK",
+            " CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Aman Singh ",
+        "nickname": "Aman",
+        "positions": [
+            "GK"
+        ]
+    },
+    {
+        "name": "Sajjad Azhar",
+        "nickname": "Sajjad",
+        "positions": [
+            "GK",
+            " ST/CF"
+        ]
+    },
+    {
+        "name": "Sakeb Khan",
+        "nickname": "Sakeb",
+        "positions": [
+            "GK",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Shahriar Iqbal",
+        "nickname": "Iqbal",
+        "positions": [
+            "GK",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Farzad Aftab",
+        "nickname": "Farzad",
+        "positions": [
+            "ST/CF",
+            " CAM/CM"
+        ]
+    },
+    {
+        "name": "Salman Sakib",
+        "nickname": "Salman",
+        "positions": [
+            "ST/CF",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Sadiq Sada",
+        "nickname": "Sadiq",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Faisal Shahid",
+        "nickname": "Faisal",
+        "positions": [
+            "ST/CF",
+            " CAM/CM"
+        ]
+    },
+    {
+        "name": "Moinul Islam (Mridul)",
+        "nickname": "Mridul",
+        "positions": [
+            "ST/CF",
+            " CAM/CM"
+        ]
+    },
+    {
+        "name": "Obaidur Rashid",
+        "nickname": "Obaid",
+        "positions": [
+            "ST/CF",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Toufiqul Islam",
+        "nickname": "Toufiq",
+        "positions": [
+            "ST/CF",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Rahamin Hossain",
+        "nickname": "Rahamin",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Rabbani khan",
+        "nickname": "Rabbani",
+        "positions": [
+            "ST/CF"
+        ]
+    },
+    {
+        "name": "Fahim Karim",
+        "nickname": "Fahim",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Mohammad Moshiur Rashid ",
+        "nickname": "Shimul",
+        "positions": [
+            "ST/CF"
+        ]
+    },
+    {
+        "name": "moinul khan",
+        "nickname": "Titash",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Zareb Islam",
+        "nickname": "Zareb",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Hanzalah Kaif",
+        "nickname": "Kaif",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "MD ZAHIDUL ALAM",
+        "nickname": "Zahid",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Muhammad Shayan Nafees ",
+        "nickname": "Shayan ",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mobasher",
+        "nickname": "Tafser",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Shouman",
+        "nickname": "Shouman",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Tahmid Mahbub",
+        "nickname": "Tahmid",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Sayem Muhammed Albhee",
+        "nickname": "Sayem",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Toriqul Amin Tonmoy",
+        "nickname": "Amin Tonmoy",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CDM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mahmud Reaz",
+        "nickname": "Ankur",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Mehidi Hasan Suvo",
+        "nickname": "Suvo",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Sabiq Khan",
+        "nickname": "Sabiq",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Abu Bakar Siddik",
+        "nickname": "Siddik",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mushfique Ahmed",
+        "nickname": "Mushfique",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CDM/CM"
+        ]
+    },
+    {
+        "name": "Mohammad Atikur Rahman ",
+        "nickname": "Atik",
+        "positions": [
+            "ST/CF",
+            " CAM/CM"
+        ]
+    },
+    {
+        "name": "SHAH MD MARUF",
+        "nickname": "ROMAN",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Jawad Bappy",
+        "nickname": "Jawad",
+        "positions": [
+            "ST/CF",
+            " CAM/CM"
+        ]
+    },
+    {
+        "name": "Shafiur Rahman",
+        "nickname": "Shafeey",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CDM/CM",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Pablo Barua",
+        "nickname": "Pablo ",
+        "positions": [
+            "ST/CF",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Mostofa Patwary",
+        "nickname": "Uzzal",
+        "positions": [
+            "ST/CF",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Rezben kawser Aohan",
+        "nickname": "Aohan",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " CB/RB/LB",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Enamul Hoque",
+        "nickname": "Enamul",
+        "positions": [
+            "ST/CF",
+            " CB/RB/LB"
+        ]
+    },
+    {
+        "name": "Tahmid Rashid",
+        "nickname": "Tahmid",
+        "positions": [
+            "ST/CF",
+            " CAM/CM",
+            " RW/LW"
+        ]
+    },
+    {
+        "name": "Samuel ",
+        "nickname": "Sam ",
+        "positions": [
+            "ST/CF"
+        ]
+    },
+    {
+        "name": "Shafkat Khondker",
+        "nickname": "Shafkat",
+        "positions": [
+            "RW/LW"
+        ]
+    },
+    {
+        "name": "Khan Ahmed",
+        "nickname": "Shakil",
+        "positions": [
+            "RW/LW"
+        ]
+    }
+]
